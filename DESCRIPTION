@@ -1,6 +1,6 @@
 Package: altw
 Title: Copy selection(s) in current source editor to X clipboard
-Version: 0.0.0.9000
+Version: 1.0.0
 Authors@R: person("Fernando", "Naufel", , "fnaufel@gmail.com", role =
        c("aut", "cre"))
 Description: Copy selection(s) in current source editor to X clipboard
