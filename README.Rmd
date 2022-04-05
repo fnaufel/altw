@@ -20,6 +20,8 @@ knitr::opts_chunk$set(
 
 In my installation of RStudio, even with Emacs keybindings, I was not able to use `M-w` (i.e., `Alt-W`) for copying. 
 
+In the **Tools | Modify Keyboard Shortcuts...** menu, it is not possible to bind keys to the `copy` command.
+
 `C-w` and `C-y` work fine for killing and yanking, respectively.
 
 `altw` is an RStudio addin to copy the current selection to the clipboard. 
@@ -40,7 +42,7 @@ You can install `altw` from [GitHub](https://github.com/) with:
 devtools::install_github("fnaufel/altw")
 ```
 
-After installation, go to **Tools | Addins | Browse Addins...**, find `altw`, select it, and click on `Keyboard shortcuts` to bind it to your favorite key.
+After installation, go to the **Tools | Addins | Browse Addins...** menu, find `altw`, select it, and click on `Keyboard shortcuts` to bind it to your favorite key.
 
 
 ## Dependencies
