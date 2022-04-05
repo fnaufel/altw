@@ -1,0 +1,5 @@
+Name: xclip
+Description: Uses xclip to copy selection(s) in current source editor to X clipboard
+Binding: xclip
+Interactive: false
+
