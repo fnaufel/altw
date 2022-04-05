@@ -9,3 +9,5 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: rstudioapi,processx
+URL: https://github.com/fnaufel/altw
+BugReports: https://github.com/fnaufel/altw/issues
