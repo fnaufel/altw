@@ -4,12 +4,12 @@
 #'
 #' @author fnaufel
 #' @export
-#' @importFrom rstudioapi getActiveDocumentContext setSelectionRanges
+#' @importFrom rstudioapi getSourceEditorContext setSelectionRanges
 #' @importFrom clipr write_clip
 #'
 altw <- function() {
 
-  context <- rstudioapi::getActiveDocumentContext()
+  context <- rstudioapi::getSourceEditorContext()
 
   if (!is.null(context) && !empty_selection(context)) {
 

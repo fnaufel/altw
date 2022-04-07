@@ -2,5 +2,5 @@
 
 export(altw)
 importFrom(clipr,write_clip)
-importFrom(rstudioapi,getActiveDocumentContext)
+importFrom(rstudioapi,getSourceEditorContext)
 importFrom(rstudioapi,setSelectionRanges)
