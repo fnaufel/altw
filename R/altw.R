@@ -4,7 +4,7 @@
 #'
 #' @author fnaufel
 #' @export
-#' @importFrom rstudioapi getSourceEditorContext setSelectionRanges
+#' @importFrom rstudioapi getSourceEditorContext insertText
 #' @importFrom clipr write_clip
 #'
 altw <- function() {
@@ -22,10 +22,9 @@ altw <- function() {
 
     clipr::write_clip(my_text)
 
-    # Deactivate selection, leaving cursor at end
-    rstudioapi::setSelectionRanges(
-      context$selection[[1]]$range$end
-    )
+    # Deactivate selection by inserting selected text over itself (!)
+    # This was the only way I found to do it :-(
+    rstudioapi::insertText(my_text)
 
   }
 

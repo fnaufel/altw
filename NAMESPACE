@@ -3,4 +3,4 @@
 export(altw)
 importFrom(clipr,write_clip)
 importFrom(rstudioapi,getSourceEditorContext)
-importFrom(rstudioapi,setSelectionRanges)
+importFrom(rstudioapi,insertText)
